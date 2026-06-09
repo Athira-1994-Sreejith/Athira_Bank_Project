@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-09T15:58:44 IST" name="Regression Suite" finished-at="2026-06-09T15:58:52 IST" duration-ms="8200">
+    <groups>
+    </groups>
+    <test started-at="2026-06-09T15:58:44 IST" name="UI Login Tests" finished-at="2026-06-09T15:58:52 IST" duration-ms="8200">
+      <class name="com.company.tests.EditCustomerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.company.tests.EditCustomerTest@65fb9ffc]" started-at="2026-06-09T15:58:44 IST" name="setUp" finished-at="2026-06-09T15:58:49 IST" duration-ms="5217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="editingcustomer()[pri:0, instance:com.company.tests.EditCustomerTest@65fb9ffc]" started-at="2026-06-09T15:58:49 IST" name="editingcustomer" finished-at="2026-06-09T15:58:52 IST" duration-ms="2738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editingcustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.company.tests.EditCustomerTest@65fb9ffc]" started-at="2026-06-09T15:58:52 IST" name="tearDown" finished-at="2026-06-09T15:58:52 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.company.tests.EditCustomerTest -->
+    </test> <!-- UI Login Tests -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

@@ -2,7 +2,7 @@
 <suite name="Regression Suite">
     <test name="UI Login Tests">
         <classes>
-            <class name="com.company.tests.LoginTest"/>
+            <class name="com.company.tests.EditCustomerTest"/>
         </classes>
     </test>
 </suite>

@@ -6,20 +6,28 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage {
     private WebDriver driver;
 
-    // 1. Locators (Private to avoid accidental tampering)
-    private By userid = By.id("message23");
-    private By password1 = By.id("message18");
-    private By login = By.name("btnLogin");
+    // Locators
+    private By usernameField = By.name("uid");       
+    private By passwordField = By.name("password");  
+    private By loginButton   = By.name("btnLogin");
 
-    // 2. Constructor
+    // Constructor accepts the driver from the running test
     public LoginPage(WebDriver driver) {
         this.driver = driver;
     }
 
-    // 3. Actions (Public)
-    public void login(String username, String password) {
-        driver.findElement(userid).sendKeys("mngr662739");
-        driver.findElement(password1).sendKeys("ehAhEbU");
-        driver.findElement(login).click();
+    // Actions
+    public void enterUsername(String username) {
+        driver.findElement(usernameField).clear();
+        driver.findElement(usernameField).sendKeys(username);
+    }
+
+    public void enterPassword(String password) {
+        driver.findElement(passwordField).clear();
+        driver.findElement(passwordField).sendKeys(password);
+    }
+
+    public void clickLogin() {
+        driver.findElement(loginButton).click();
     }
 }
